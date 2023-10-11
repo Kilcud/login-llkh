@@ -1,0 +1,137 @@
+@font-face {
+    font-family: Gotham-Light;
+    src: url(SVN-Gotham\ Book.otf);
+}
+
+@font-face {
+    font-family: Gotham-Bold;
+    src: url(SVN-Gotham\ Bold.otf);
+}
+
+body{
+    font-family: Gotham-Light;
+    color: #06113b;
+    font-size: 62.5%
+}
+
+.background {
+    width: 100%;
+    height: 1000px;
+    background-image: url(./bg-login.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+  }
+
+.container{
+    background-color: white;
+    width: 50rem;
+    height: 30rem;
+    border-radius: 1.7rem;
+    margin: 0 auto;
+    position: relative;
+    top: 9rem
+}   
+
+.heading{
+    display: flex;
+}
+.logo{
+    width: 123px;
+    height: 123px;
+    object-fit: cover;
+    display: block;
+    margin: 1rem 1rem;
+}
+.title{
+    display: block;
+    margin: auto 0;
+}
+.h1{
+    display: block;
+    font-size: 2.4rem;
+    text-align: center;
+    font-family: Gotham-Bold;
+}
+.h2{
+    display: block;
+    text-align: center;
+    padding-top: 0.5rem;
+    font-size: 1.4rem;
+}
+
+.password,
+.username{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: stretch;
+    position: relative;
+}
+
+
+.user-icon{
+   width: 30px;
+   height: auto;
+   position: absolute;
+   left: 4.3rem;
+   top: 1.8rem;
+}
+
+.pass-icon{
+   width: 30px;
+   height: auto;
+   position: absolute;
+   left: 4.3rem;
+   top: 2.8rem;
+}
+
+.uncensored-icon{
+    height: 25px;
+    position: absolute;
+    right: 4.3rem;
+    top: 2.9rem;
+}
+input[type=text]{
+    width: 77%;
+    padding: 20px 20px 20px 67px;
+    margin: 10px 5px;
+    border-radius: 2rem;
+    border: none;
+    background-color: #F6F6F6;
+    font-size: 1.2rem;
+    font-family: Gotham-Light;
+}
+
+input[type=password]{
+    width: 77%;
+    padding: 20px 20px 20px 67px;
+    margin: 25px 5px;
+    border-radius: 2rem;
+    border: none;
+    background-color: #F6F6F6;
+    font-size: 1.2rem;
+    font-family: Gotham-Light;
+}
+
+.checkbox{
+    margin: -0.2rem 2rem 1.4rem 4.3rem;
+    font-size: 1rem;
+}
+
+
+.login{
+    padding: 0.5rem 9rem 0.7rem 9rem ;
+    background-color: #06113b;
+    border-radius: 2rem;
+    margin: 0 auto;
+    display: block;
+   
+}
+
+.login-title{
+    color: white;
+    font-size: 1.3rem;
+    font-family: Gotham-Bold;
+}
