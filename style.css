@@ -27,15 +27,16 @@ body{
 .container{
     background-color: white;
     width: 50rem;
-    height: 30rem;
+    height: 34.5rem;
     border-radius: 1.7rem;
     margin: 0 auto;
     position: relative;
-    top: 9rem
+    top: 8.3rem
 }   
 
 .heading{
     display: flex;
+    padding-top: 1.2rem;
 }
 .logo{
     width: 123px;
@@ -43,10 +44,12 @@ body{
     object-fit: cover;
     display: block;
     margin: 1rem 1rem;
+    padding-top: 0.5rem;
 }
 .title{
     display: block;
     margin: auto 0;
+    
 }
 .h1{
     display: block;
@@ -57,7 +60,7 @@ body{
 .h2{
     display: block;
     text-align: center;
-    padding-top: 0.5rem;
+    padding-top: 0.7rem;
     font-size: 1.4rem;
 }
 
@@ -76,7 +79,7 @@ body{
    height: auto;
    position: absolute;
    left: 4.3rem;
-   top: 1.8rem;
+   top: 2.6rem;
 }
 
 .pass-icon{
@@ -84,19 +87,19 @@ body{
    height: auto;
    position: absolute;
    left: 4.3rem;
-   top: 2.8rem;
+   top: 1.6rem;
 }
 
 .uncensored-icon{
     height: 25px;
     position: absolute;
     right: 4.3rem;
-    top: 2.9rem;
+    top: 1.8rem;
 }
 input[type=text]{
     width: 77%;
     padding: 20px 20px 20px 67px;
-    margin: 10px 5px;
+    margin: 1.5rem 0.5rem;
     border-radius: 2rem;
     border: none;
     background-color: #F6F6F6;
@@ -107,7 +110,7 @@ input[type=text]{
 input[type=password]{
     width: 77%;
     padding: 20px 20px 20px 67px;
-    margin: 25px 5px;
+    margin: 5px 5px;
     border-radius: 2rem;
     border: none;
     background-color: #F6F6F6;
@@ -116,7 +119,7 @@ input[type=password]{
 }
 
 .checkbox{
-    margin: -0.2rem 2rem 1.4rem 4.3rem;
+    margin: 1.5rem 2rem 1.4rem 4.3rem;
     font-size: 1rem;
 }
 
@@ -125,7 +128,7 @@ input[type=password]{
     padding: 0.5rem 9rem 0.7rem 9rem ;
     background-color: #06113b;
     border-radius: 2rem;
-    margin: 0 auto;
+    margin: 2rem auto;
     display: block;
    
 }
