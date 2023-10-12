@@ -7,8 +7,12 @@
     font-family: Gotham-Bold;
     src: url(SVN-Gotham\ Bold.otf);
 }
+html{
+    height: 100%;
+}
 
 body{
+    height: 100%;
     font-family: Gotham-Light;
     color: #06113b;
     font-size: 62.5%
@@ -16,7 +20,7 @@ body{
 
 .background {
     width: 100%;
-    height: 1000px;
+    height: 100%;
     background-image: url(./bg-login.png);
     background-position: center center;
     background-size: cover;
